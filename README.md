@@ -1,6 +1,26 @@
 # Semantic Segmentation
-### Introduction
-In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
+
+This project is about labeling the pixels of a road from road scene images by semantic segmentation using Fully Convolutional Network(FCN). 
+
+
+### Details on implementation
+The FCN is build from pre trained VGG16 model and fine tuned.
+
+The hyper parameters tuned are:
+ - Learning rate: 0.00005
+ - Epochs : 30
+ - batch size : 8
+ 
+ The model is trained in AWS g3.4xlarge instance and took 1 hour.
+ 
+ The sample road scene images from testing data: Road pixels are classified and colored as below;
+ 
+ ![](./Examples/umm_000032.png)
+ 
+ 
+ ![](./Examples/um_000010.png)
+ 
+
 
 ### Setup
 ##### Frameworks and Packages
