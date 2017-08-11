@@ -11,6 +11,10 @@ The hyper parameters tuned are:
  - Epochs : 30
  - batch size : 8
  
+ The training loss curve plot:
+ 
+ ![](./Examples/learningcurves.jpg)
+ 
  The model is trained in AWS g3.4xlarge instance and took 1 hour.
  
  The sample road scene images from testing data: Road pixels are classified and colored as below;
